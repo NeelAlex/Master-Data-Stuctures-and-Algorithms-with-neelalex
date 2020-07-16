@@ -26,11 +26,11 @@ int maxSubArraySum(int arr[], int size) {
             max_ending_here = 0;
 
         if(arr[i] > max_negative_scenario) // additional check to handle all negative scenario.
-            max_negative_scenario = a[i];
+            max_negative_scenario = arr[i];
     }
 
     if(max_so_far == 0) // additional check to handle all negative scenario.
         max_so_far = max_negative_scenario;
-		
+
     return max_so_far;
 }
