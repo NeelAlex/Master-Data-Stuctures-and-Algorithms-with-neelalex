@@ -11,7 +11,7 @@ Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
 */
 
-	vector<int> plusOne(vector<int>& arr) {
+	vector<int> plusOneToIntegerArray(vector<int>& arr) {
         int n = arr.size();
         int carry = 1;
         int temp = 0;
