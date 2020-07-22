@@ -17,7 +17,6 @@ vector<int> waveArray(vector<int> &arr) {
         return arr;
     }
     sort(arr.begin(), arr.end());
-
     for(int i = 0; i < arr.size() - 1; i = i + 2){
         swap(arr[i], arr[i+1]);
     }
